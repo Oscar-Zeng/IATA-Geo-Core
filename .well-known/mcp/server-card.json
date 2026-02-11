@@ -1,0 +1,9 @@
+{
+    "mcpVersion": "1.0.0",
+    "name": "iata-geo-core",
+    "version": "1.0.0",
+    "description": "Global airport distance engine using IATA codes",
+    "capabilities": {
+      "tools": true
+    }
+  }
