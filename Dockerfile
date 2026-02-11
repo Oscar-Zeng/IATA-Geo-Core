@@ -10,5 +10,5 @@ COPY . .
 # 安装依赖
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 运行服务 (使用 python 运行 mcp_server.py)
-ENTRYPOINT ["python", "mcp_server.py"]
+# 增加 -u 参数，禁用 Python 的输出缓冲
+ENTRYPOINT ["python", "-u", "mcp_server.py"]

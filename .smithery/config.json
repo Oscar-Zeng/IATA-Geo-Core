@@ -1,0 +1,11 @@
+{
+    "cli": {
+      "command": "python",
+      "args": ["mcp_server.py"]
+    },
+    "configSchema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    }
+  }
